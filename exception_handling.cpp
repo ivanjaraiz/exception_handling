@@ -5,8 +5,14 @@
 using namespace std;
 int main()
 {
-	cout << "Hola" << endl;
-	cout << "Que tal" << endl;
+	try
+	{
+		throw 1;
+	}
+	catch (int e)
+	{
+		cout << "Int Catch" << endl;
+	}
 	return 0;
 }
 
