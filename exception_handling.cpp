@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	cout << "Hola" << endl;
+	cout << "Que tal" << endl;
 	return 0;
 }
 
